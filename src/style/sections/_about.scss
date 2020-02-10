@@ -17,7 +17,11 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-
+  .skills{
+    color: rgb(46, 35, 202);
+    font-size: 2em;
+    font-weight: bold;
+  }
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
@@ -48,7 +52,7 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: justify;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
