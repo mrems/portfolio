@@ -30,24 +30,24 @@ export default function() {
   /* About Section */
   ScrollReveal().reveal('.about-wrapper__image', {
     ...defaultProps,
-    delay: 600,
+    delay: 300,
     origin: 'bottom'
   });
   ScrollReveal().reveal('.about-wrapper__info', {
     ...defaultProps,
-    delay: 1000,
+    delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
 
   /* Projects Section */
   ScrollReveal().reveal('.project-wrapper__text', {
     ...defaultProps,
-    delay: 500,
+    delay: 300,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
   ScrollReveal().reveal('.project-wrapper__image', {
     ...defaultProps,
-    delay: 1000,
+    delay: 300,
     origin: window.innerWidth > 768 ? 'right' : 'bottom'
   });
 
